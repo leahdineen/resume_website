@@ -51,17 +51,17 @@ $(function() {
         if ($slide_index == 0){
             $current_slide = $('.waterloo');
             $new_slide = $('.basketball');
-            $slide_index++;
+            $slide_index=2;
         }
         else if($slide_index == 1){
             $current_slide = $('.shad');
             $new_slide = $('.waterloo');
-            $slide_index++;
+            $slide_index--;
         }
         else if($slide_index == 2){
             $current_slide = $('.basketball');
             $new_slide = $('.shad');
-            $slide_index=0;
+            $slide_index--;
         }
 
         $current_slide.fadeOut(1000);

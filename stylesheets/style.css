@@ -138,7 +138,7 @@ a {
 .slide {
   height: 390px;
   width: 800px;
-  padding-left: 55px;
+  margin-left: 55px;
   position: absolute;
 }
 
