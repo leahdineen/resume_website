@@ -128,75 +128,32 @@ a {
   padding-left: 20px;
 }
 
-/* About Me */
-/* line 132, ../sass/style.scss */
-.About {
-  height: 390px;
-}
-
-/* line 136, ../sass/style.scss */
-.slide {
-  height: 390px;
-  width: 800px;
-  margin-left: 55px;
-  position: absolute;
-}
-
-/* line 145, ../sass/style.scss */
-.slide_content img {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  border-radius: 20px;
-  float: right;
-  margin-left: 20px;
-}
-
-/* line 152, ../sass/style.scss */
-.previous_arrow {
-  height: 390px;
-  width: 50px;
-  float: left;
-  margin-top: 175px;
-}
-/* line 158, ../sass/style.scss */
-.previous_arrow img {
-  cursor: pointer;
-}
-
-/* line 163, ../sass/style.scss */
-.next_arrow {
-  height: 390px;
-  width: 50px;
-  float: right;
-  margin-top: 175px;
-}
-/* line 169, ../sass/style.scss */
-.next_arrow img {
-  cursor: pointer;
+/* line 128, ../sass/style.scss */
+.Home {
+  min-height: 320px;
 }
 
 /* Contact Info */
-/* line 177, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .fa {
   /*icons*/
   color: #29D6FF;
 }
 
-/* line 182, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .contactCol, .quoteCol {
   float: left;
   padding: 10px;
   width: 45%;
 }
 
-/* line 188, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .quote {
   text-decoration: italic;
   color: #C781F0;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .contactObject a {
   text-decoration: none;
   color: white;
@@ -204,7 +161,7 @@ a {
 }
 
 /* Footer */
-/* line 203, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 footer {
   position: absolute;
   right: 0;
@@ -212,12 +169,12 @@ footer {
   left: 0;
 }
 
-/* line 210, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .footer {
   width: 100%;
   height: 50px;
 }
-/* line 214, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .footer p, .footer a {
   text-align: center;
   text-decoration: none;

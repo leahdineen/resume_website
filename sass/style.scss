@@ -125,52 +125,9 @@ a{
 	}
 }
 
-/* About Me */
-$sliderHeight: 390px;
-$arrow_height: 40px;
-
-.About{
-	height: $sliderHeight;
+.Home {
+	min-height: 320px;
 }
-
-.slide{
-	height: $sliderHeight;
-	width: 800px;
-	margin-left: 55px;
-	position: absolute;
-}
-
-.slide_content{
-
-	img{
-		@include border-radius(20px);
-		float: right;
-		margin-left: 20px;
-	}
-}
-
-.previous_arrow{
-	height: $sliderHeight;
-	width: 50px;
-	float: left;
-	margin-top: ($sliderHeight - $arrow_height)/2;
-
-	img{
-		cursor: pointer;
-	}
-}
-
-.next_arrow{
-	height: $sliderHeight;
-	width: 50px;
-	float: right;
-	margin-top: ($sliderHeight - $arrow_height)/2;
-
-	img{
-		cursor: pointer;
-	}
-}
-
 
 /* Contact Info */
 
